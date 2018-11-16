@@ -1,0 +1,141 @@
+﻿{
+    "categories": [
+        {
+            "destplaylist": "5485017827001",
+            "name": "Top Picks",
+            "localizedNames": {
+                "en": "Top Picks"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Principais escolhas",
+                "localized_name_ko": "최고 추천작",
+                "destplaylist": "5485017827001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_toppicks.m4v",
+                "localized_name_de": "Highlights",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "Top Picks",
+                "localized_name_fr": "Meilleurs choix",
+                "localized_name_es": "Populares",
+                "localized_name_it": "I più gettonati"
+            }
+        },
+        {
+            "destplaylist": "5378809665001",
+            "name": "Science & Nature",
+            "localizedNames": {
+                "en": "Science & Nature"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Ciência e natureza",
+                "localized_name_ko": "과학과 자연",
+                "destplaylist": "5378809665001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_science.m4v",
+                "localized_name_de": "Wissenschaft und Natur",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "科学与自然 ",
+                "localized_name_fr": "Science et nature",
+                "localized_name_es": "Ciencia y naturaleza",
+                "localized_name_it": "Scienza e natura"
+            }
+        },
+        {
+            "destplaylist": "5404544270001",
+            "name": "Adventure",
+            "localizedNames": {
+                "en": "Adventure"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Aventura ",
+                "localized_name_ko": "모험",
+                "destplaylist": "5404544270001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_adventure.m4v",
+                "localized_name_de": "Abenteuer ",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "Adventure",
+                "localized_name_fr": "Aventure ",
+                "localized_name_es": "Aventura",
+                "localized_name_it": "Avventura"
+            }
+        },
+        {
+            "destplaylist": "5404291724001",
+            "name": "The World",
+            "localizedNames": {
+                "en": "The World"
+            },
+            "custom_fields": {
+                "localized_name_pt": "O mundo",
+                "localized_name_ko": "세계",
+                "destplaylist": "5404291724001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_theworld.jpg",
+                "localized_name_de": "Die Welt",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "The World",
+                "localized_name_fr": "Le monde",
+                "localized_name_es": "El mundo",
+                "localized_name_it": "Il mondo"
+            }
+        },
+        {
+            "destplaylist": "5359963189001",
+            "name": "Get Ready for School",
+            "localizedNames": {
+                "en": "Get Ready for School"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Prepare-se para a escola",
+                "localized_name_ko": "학교 갈 준비",
+                "destplaylist": "5359963189001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_getreadyforschool.m4v",
+                "localized_name_de": "Bereit für die Schule",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "入学准备",
+                "localized_name_fr": "Se préparer pour l'école",
+                "localized_name_es": "Prepárate para clase",
+                "localized_name_it": "Pronti per la scuola"
+            }
+        },
+        {
+            "destplaylist": "5404291723001",
+            "name": "Animal World",
+            "localizedNames": {
+                "en": "Animal World"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Mundo animal",
+                "localized_name_ko": "동물의 세계",
+                "destplaylist": "5404291723001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_animalworld.m4v",
+                "localized_name_de": "Tierwelt",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "动物世界",
+                "localized_name_fr": "Monde animal",
+                "localized_name_es": "Mundo animal",
+                "localized_name_it": "Il mondo degli animali"
+            }
+        },
+        {
+            "destplaylist": "5478425692001 ",
+            "name": "Just for Fun",
+            "localizedNames": {
+                "en": "Just for Fun"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Só para divertir",
+                "localized_name_ko": "재밋거리",
+                "destplaylist": "5478425692001 ",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_justforfun.m4v",
+                "localized_name_de": "Nur zum Spaß",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "Just for Fun",
+                "localized_name_fr": "Juste pour le fun",
+                "localized_name_es": "Solo por diversión",
+                "localized_name_it": "Solo per divertirsi"
+            }
+        }
+    ],
+    "config": {
+        "accountId": "5282994665001",
+        "policyKey": "BCpkADawqM1iU-GONy2Bg_cq9z732MLbgXDuOrg7N3KRvKOiS_qN05YD-MpqHaR6UjQBtZav1dUJWY4bZEuNXgj0npstFjMAN82ceSeysFEWuDoBwWzi6tAVXruN6xXEwJcLtLrUu5VK2LtL"
+    }
+}

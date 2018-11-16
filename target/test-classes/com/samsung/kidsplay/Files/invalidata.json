@@ -1,0 +1,67 @@
+﻿{
+    "categories": [
+        {
+            "destplaylist": "5485017827001",
+            "name": "Top Picks",
+            "localizedNames": {
+                "en": "Top Picks"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Principais escolhas",
+                "localized_name_ko": "최고 추천작",
+                "destplaylist": "5485017827001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_toppicks.m4v",
+                "localized_name_de": "Highlights",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "Top Picks",
+                "localized_name_fr": "Meilleurs choix",
+                "localized_name_es": "Populares",
+                "localized_name_it": "I più gettonati"
+            }
+        },
+        
+        
+        
+        {
+            "destplaylist": "5359963189001",
+            "name": "Get Ready for School",
+            "localizedNames": {
+                "en": "Get Ready for School"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Prepare-se para a escola",
+                "localized_name_ko": "학교 갈 준비",
+                "destplaylist": "5359963189001",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_getreadyforschool.m4v",
+                "localized_name_de": "Bereit für die Schule",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "入学准备",
+               
+                "localized_name_it": "Pronti per la scuola"
+            }
+        },
+                {
+            "destplaylist": "5478425692001 ",
+           
+            "localizedNames": {
+                "en": "Just for Fun"
+            },
+            "custom_fields": {
+                "localized_name_pt": "Só para divertir",
+                "localized_name_ko": "재밋거리",
+                "destplaylist": "5478425692001 ",
+                "original_s3_location": "fp-video-upload/playlist-videos/dummy_justforfun.m4v",
+                "localized_name_de": "Nur zum Spaß",
+                "provider": "playlist-videos",
+                "localized_name_zh-cn": "Just for Fun",
+                "localized_name_fr": "Juste pour le fun",
+                "localized_name_es": "Solo por diversión",
+                "localized_name_it": "Solo per divertirsi"
+            }
+        }
+    ],
+    "config": {
+        "accountId": "",
+        "policyKey": ""
+    }
+}

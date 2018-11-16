@@ -1,0 +1,221 @@
+﻿{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "categories",
+    "config"
+  ],
+  "properties": {
+    "categories": {
+      "$id": "#/properties/categories",
+      "type": "array",
+      "title": "The Categories Schema",
+      "items": {
+        "$id": "#/properties/categories/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "destplaylist",
+          "name",
+          "localizedNames",
+          "custom_fields"
+        ],
+        "properties": {
+          "destplaylist": {
+            "$id": "#/properties/categories/items/properties/destplaylist",
+            "type": "string",
+            "title": "The Destplaylist Schema",
+            "default": "",
+            "examples": [
+              "5485017827001"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "name": {
+            "$id": "#/properties/categories/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "Top Picks"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "localizedNames": {
+            "$id": "#/properties/categories/items/properties/localizedNames",
+            "type": "object",
+            "title": "The Localizednames Schema",
+            "required": [
+              "en"
+            ],
+            "properties": {
+              "en": {
+                "$id": "#/properties/categories/items/properties/localizedNames/properties/en",
+                "type": "string",
+                "title": "The En Schema",
+                "default": "",
+                "examples": [
+                  "Top Picks"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "custom_fields": {
+            "$id": "#/properties/categories/items/properties/custom_fields",
+            "type": "object",
+            "title": "The Custom_fields Schema",
+            "required": [
+              "localized_name_pt",
+              "localized_name_ko",
+              "destplaylist",
+              "original_s3_location",
+              "localized_name_de",
+              "provider",
+              "localized_name_zh-cn",
+              "localized_name_fr",
+              "localized_name_es",
+              "localized_name_it"
+            ],
+            "properties": {
+              "localized_name_pt": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_pt",
+                "type": "string",
+                "title": "The Localized_name_pt Schema",
+                "default": "",
+                "examples": [
+                  "Principais escolhas"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_ko": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_ko",
+                "type": "string",
+                "title": "The Localized_name_ko Schema",
+                "default": "",
+                "examples": [
+                  "최고 추천작"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "destplaylist": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/destplaylist",
+                "type": "string",
+                "title": "The Destplaylist Schema",
+                "default": "",
+                "examples": [
+                  "5485017827001"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "original_s3_location": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/original_s3_location",
+                "type": "string",
+                "title": "The Original_s3_location Schema",
+                "default": "",
+                "examples": [
+                  "fp-video-upload/playlist-videos/dummy_toppicks.m4v"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_de": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_de",
+                "type": "string",
+                "title": "The Localized_name_de Schema",
+                "default": "",
+                "examples": [
+                  "Highlights"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "provider": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/provider",
+                "type": "string",
+                "title": "The Provider Schema",
+                "default": "",
+                "examples": [
+                  "playlist-videos"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_zh-cn": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_zh-cn",
+                "type": "string",
+                "title": "The Localized_name_zh-cn Schema",
+                "default": "",
+                "examples": [
+                  "Top Picks"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_fr": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_fr",
+                "type": "string",
+                "title": "The Localized_name_fr Schema",
+                "default": "",
+                "examples": [
+                  "Meilleurs choix"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_es": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_es",
+                "type": "string",
+                "title": "The Localized_name_es Schema",
+                "default": "",
+                "examples": [
+                  "Populares"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "localized_name_it": {
+                "$id": "#/properties/categories/items/properties/custom_fields/properties/localized_name_it",
+                "type": "string",
+                "title": "The Localized_name_it Schema",
+                "default": "",
+                "examples": [
+                  "I più gettonati"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "config": {
+      "$id": "#/properties/config",
+      "type": "object",
+      "title": "The Config Schema",
+      "required": [
+        "accountId",
+        "policyKey"
+      ],
+      "properties": {
+        "accountId": {
+          "$id": "#/properties/config/properties/accountId",
+          "type": "string",
+          "title": "The Accountid Schema",
+          "default": "",
+          "examples": [
+            "5282994665001"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "policyKey": {
+          "$id": "#/properties/config/properties/policyKey",
+          "type": "string",
+          "title": "The Policykey Schema",
+          "default": "",
+          "examples": [
+            "BCpkADawqM1iU-GONy2Bg_cq9z732MLbgXDuOrg7N3KRvKOiS_qN05YD-MpqHaR6UjQBtZav1dUJWY4bZEuNXgj0npstFjMAN82ceSeysFEWuDoBwWzi6tAVXruN6xXEwJcLtLrUu5VK2LtL"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

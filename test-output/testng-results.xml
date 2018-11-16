@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9095" started-at="2018-11-15T20:57:28Z" finished-at="2018-11-15T20:57:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9095" started-at="2018-11-15T20:57:28Z" finished-at="2018-11-15T20:57:37Z">
+      <class name="com.samsung.kidsplay.SyncTest">
+        <test-method status="PASS" signature="initSpec()[pri:0, instance:com.samsung.kidsplay.SyncTest@5383967b]" name="initSpec" is-config="true" duration-ms="2469" started-at="2018-11-15T14:57:28Z" finished-at="2018-11-15T14:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSpec -->
+        <test-method status="PASS" signature="sync()[pri:1, instance:com.samsung.kidsplay.SyncTest@5383967b]" name="sync" duration-ms="6530" started-at="2018-11-15T14:57:31Z" finished-at="2018-11-15T14:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sync -->
+      </class> <!-- com.samsung.kidsplay.SyncTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

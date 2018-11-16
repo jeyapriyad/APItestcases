@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.samsung.kidsplay.BrightcoveTest"/>
+      <class name="com.samsung.kidsplay.AccountEndpointTest"/>
+       <class name="com.samsung.kidsplay.CheckEndPointTest"/>
+        <class name="com.samsung.kidsplay.CouponTest"/>
+      <class name="com.samsung.kidsplay.SchemaValidationTest"/>
+      <class name="com.samsung.kidsplay.PaymentEndpointTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

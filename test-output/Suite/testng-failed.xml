@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.samsung.kidsplay.SchemaValidationTest">
+        <methods>
+          <include name="initSpec"/>
+          <include name="validation"/>
+        </methods>
+      </class> <!-- com.samsung.kidsplay.SchemaValidationTest -->
+      <class name="com.samsung.kidsplay.AccountEndpointTest">
+        <methods>
+          <include name="getData"/>
+          <include name="emailSupport"/>
+        </methods>
+      </class> <!-- com.samsung.kidsplay.AccountEndpointTest -->
+      <class name="com.samsung.kidsplay.BrightcoveTest">
+        <methods>
+          <include name="initSpec"/>
+          <include name="brightcoveSearch"/>
+        </methods>
+      </class> <!-- com.samsung.kidsplay.BrightcoveTest -->
+      <class name="com.samsung.kidsplay.PaymentEndpointTest">
+        <methods>
+          <include name="getData"/>
+          <include name="updateSubscription"/>
+        </methods>
+      </class> <!-- com.samsung.kidsplay.PaymentEndpointTest -->
+      <class name="com.samsung.kidsplay.CouponTest">
+        <methods>
+          <include name="couponIDCountry"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- com.samsung.kidsplay.CouponTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
